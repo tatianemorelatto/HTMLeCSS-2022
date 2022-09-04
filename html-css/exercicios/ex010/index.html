@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio - Capitulo 11 - aula 03</title>
+</head>
+<body>
+    <!-- Podemos pegar do youtube, arquivo MP3 em biblioteca de audio, só precisar ter uma conta no Youtube -->
+    <h1>Inserindo audio no Site!</h1>
+    <p>Vamos aprender a reproduzir audio no HMTL 5</p>
+    <p>Temos duas formas de inserir o audio:</p>
+
+    <!-- <audio src="midia/happy-mistake.mp3" controls autoplay></audio> -->
+
+    <!-- segunda forma -->
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/ogg">
+        <source src="midia/happy-mistake.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio.</p>
+
+        <!-- ele vai tentar carregar o mp3(mpeg), se o navegador não carregar, vai pro proximo e etc (evitar o wav)-->
+        <!-- basicamente o source (a midia) e o type (midia type)-->
+    </audio>
+</body>
+</html> 

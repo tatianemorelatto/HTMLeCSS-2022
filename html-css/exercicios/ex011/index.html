@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+
+<!-- os melhores e mais utilizados MP4/M4V, WEBM e OGV
+
+EXISTE UM PROGRAMA HANDBREAK(OPENSOURCE) PARA CONVERTER VIDEO E ESCOLHER O TIPO DELE  
+
+precisamos ter o mesmo video em todos esses formatos, pra que qualquer navegador possa visualizar -->
+
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+
+    <!-- Primeira forma / mais simples -->
+    <video src="video/meu-video.mp4" width="500" controls></video>
+
+    <!-- Segunda forma (para adicionar outros tipos para que seja visivel em qualquer navegador)-->
+
+    <video controls poster="imagens/fotodecapa"> <!-- o poster é pra adicionar uma foto de capa, precisa ter a imagem no seu servidor(PC) -->
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.m4v" type="video/m4v">
+        <source src="video/meu-video.webm" type="video/webm">
+        <p>Seu navegador não possui compatibilidade para visualizar videos</p>
+
+        <!-- Lembrando que todos os arquivos que você inserir vai ter um consumo de banda, então é preciso tomar cuidado -->
+
+        <!-- dessa forma os arquivos ficam muito pesados -->
+    </video>
+</body>
+</html>

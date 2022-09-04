@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>O ideal não é utilizar o maior tamanho possível, precisamos adequar a imagem para que seu site seja acessivel em qualquer dispositivo.</p>
+    <p>Não devemos reduzir a imagem pelo CSS (pegar uma imagem pesada e diminuir)</p>
+    <hr>    
+    <h2>Vamos lá..</h2>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</P>
+
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/foto-m.png" type="image/png">
+        <!-- Se o navegador tiver menos de 1020px (por exemplo) ele vai carregar a midia
+        sempre precisa ser o tamanho da imagem anterior como base no tamannho
+        e precisa informar a ordem das imagens, do menos para o maior -->
+        <img src="imagens/foto-g.png" alt="imagemflexivel">
+
+        <!-- basicamente coloca a maior foto, depois vai inserindo no source as menores seguidas-->
+    </picture>
+    
+</body>
+</html>

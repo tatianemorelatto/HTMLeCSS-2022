@@ -1,0 +1,42 @@
+Circulo cromatico é utilizado para Harmonia de cores
+
+Temos cores primarias, secundárias e terciarias no circulo cromatico
+
+Três principais cores primarias ( Amarelo, Vermelho e Azul) = As cores tem uma certa harmonia (meio grosseira) 
+
+
+Cores secundárias principais  (Verde, Laranja e Violeta)
+
+Cores terciarias (mistura das cores primarias e terciarias) está entre uma cor primaria e uma secundária = amarelo - esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado
+
+
+---------- 
+
+Para cores do site, temos que ter uma paleta de cores, e precisamos de uma cor principal, e as outras cores precisam ter harmonias entre elas 
+
+Geralmente uma paleta tem de 3 a 5 cores no maximo (descartando preto e branco), mas o recomendado são 4 cores
+
+Observação: Também ver o logo do cliente (para o site) pegar a cor primaria do logo pra usar na paleta do site
+
+------------------
+
+Cores complementares: No circulo cromatico, você vai escolher uma cor e olhar a direção oposta do circulo cromatico que irá ter o melhor contraste (a imediatamente oposta)
+
+Se não quiser a complementar, você pode usar as cores analogas
+
+Cores Analogas = Imediatamente ao lado (uma ou duas, as duas vizinhas da principal) (que possui uma similaridade) não tem contraste, mas tem harmonia
+
+
+Cores Analogas relacionadas = Pega duas cores principais (vizinhas) - depois pular a cor vizinha e pegar a próxima 
+
+PODE SER TANTO PRO LADO DIREITO QUANTO ESQUERDO DENTRO DO CIRCULO
+
+
+
+Cores Intercaladas = Tem um contrates maior entre elas
+Escolhe a principal e pode pular de um em um por exemplo (ou mais)
+
+
+
+Monocromia = Pega uma cor principal, e muda a saturação e luminosidade da cor (pegando 2 ou 3 novas cores mudando apenas issog
+
