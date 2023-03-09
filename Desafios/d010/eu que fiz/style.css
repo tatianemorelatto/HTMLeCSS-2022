@@ -1,0 +1,128 @@
+body{
+    font-size: 100%;
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+background-color: #2a9659;
+padding: 10px;
+margin: 0px;
+box-shadow: 1px 1px 7px #000000a3;
+}
+
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+    
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    
+}
+
+nav > a:hover{
+    background-color: #ffffff57;
+    padding: 10px;
+}
+.conteudo-princ{
+    background-color: white;
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-top: 2px;
+    box-shadow: 1px 1px 5px #000000a3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.titulo-princ{
+    margin-top: 0px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.p-princ{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+}   
+
+.titulo-secun{
+    margin: 10px;    
+    text-align: left;
+}
+
+.texto{
+    text-decoration: none;
+    color: #2a9659;
+    font-weight: bold;
+    
+}
+#video{
+    background-color: #094122;
+}
+#video > iframe {
+   padding: 15px;
+   margin: 10px 20% 10px 22%;
+}
+
+h3{
+    background-color: #2a9659;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 30px 25px 0px 25px;
+    color: white;
+}
+
+.aprender{
+    margin: 0px 25px;
+    background-color: #75cf9e;
+    
+}
+
+p{
+    margin: 0px 25px;    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    
+}
+
+.conteudo-final{
+    margin: 0px 30px 10px 0px;    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    padding-left: 32px;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #094122;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+
+}

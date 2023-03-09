@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade </title>
+    <style>
+        body{
+            background-color: grey;
+        
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;/* largura minima que o site vai ter (esse tamanho é de celulares bem antigos)*/
+            max-width: 800px; /* maximo de largura que vai ter  */
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        /* existem outras formas de responsividade, como flexbox que é mais atual  */ 
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Testando Responsividade
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique numquam, voluptatibus illo, consequuntur cum nihil et quis tenetur animi ipsa aut. Repudiandae, officiis ut hic porro similique obcaecati exercitationem omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed iste ex nulla? Provident sapiente, et praesentium sunt beatae explicabo? At, est illum. Nemo vero nam sequi itaque sint saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto animi id quos quidem? Atque et praesentium non dignissimos inventore eaque culpa minus amet. Corrupti veniam sit similique dolor nulla eius?</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, amet commodi cum repudiandae suscipit ipsam molestiae veniam aut sed quisquam! Vel quis dicta soluta ipsum natus inventore. Nesciunt, nemo ullam.</p>
+    </main>
+</body>
+</html>

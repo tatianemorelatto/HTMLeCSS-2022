@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: burlywood;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+
+            border: 10px solid chartreuse;
+
+            /*padding e margin sempre informar os quarto lados e sempre fazer sentido horario, como está abaixo: cima, direita, baixo, esquerda  */
+
+            padding-top:10px ; /* em cima */
+            padding-right: 10px;
+            padding-bottom: 10px; /* em baixo  */
+            padding-left: 10px;
+
+            padding: 10px 10px 10px 10px; /* simplificando o padding, cada 10px é uma posição seguindo o relógio, cima, direita, baixo, esquerda
+            
+            se você tiver o mesmo tamanho para todos os lados, pode colocar apenas um tamanho, assim; padding 10px, que vai entender que é pra fazer todos os lados 10px
+            
+            podemos colocar só 2 valores também, informando por exemplo: 10px e 20px, sendo em cima e em baixo 10 e esquerda direita 20px*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin:auto; /* centraliza horizontalmente */
+
+
+            margin: 20px 20px 20px 20px;
+
+            /* podemos calcular automticamente a margin (centralizar a box) */ 
+
+            margin: 20px auto 20px auto;
+
+
+
+
+            /* outline é um traço que tem dentro da margin (mas pode extrapolar o tamanho da margin mas não aumenta a margin
+            
+            ) */
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+
+            /* simplificando o outline da box */
+            outline: 5px dashed blue;
+
+            /* por padrão o h1 é box level - display block
+            mas é possível alterar para inline e transformar o inline em bloco com o display block */
+
+            display: inline;
+
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+
+            /* shorts hadens - simplificar
+             podemos simplificar
+            borda
+            padding
+            margin
+            outline 
+            */
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box-Level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona. </p>
+
+    <!-- 
+        USER AGENT - No Google Crhome
+
+        Geralmente os navegadores tem uma configuração de estilização meio padrão, que já vem com uma borda, uma margem, um padding nas caixas
+
+        no Crhome você pode fazer alguns testes editando o user agente para alterar (ver como vai ficar, sem alterar o código)
+
+
+    -->
+</body>
+</html>

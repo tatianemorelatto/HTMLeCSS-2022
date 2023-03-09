@@ -1,0 +1,28 @@
+body{
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+.p1 {
+    text-align: justify; /* alinhado a esquerda e direita */
+    text-indent: 20px; /* afastar o inicio do paragrafro */
+    color: crimson;
+}
+
+.p2 {
+    text-align: right;
+    color: blueviolet;
+}
+
+.p3{
+    text-align: center;
+    color: cadetblue;
+}
