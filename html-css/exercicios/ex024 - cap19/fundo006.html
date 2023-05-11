@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+            
+        }
+
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;  /* vai mover da borda lateral esquerda para a direita  */
+            top: 50%; /* vai mover a box da borda superior para baixo*/
+
+            /* usando o left e o top em 50% ele alinha o box no meio porém visualmente para nós nós fica no meio, pois ele está levando em consideração a ponta da caixa e não o meio da caixa, para de fato centralizar, precisamos utilizar o elementro transform (transformação) a operação translate para posicionar exatamente no meio */
+            transform: translate(-50%, -50%); /* mexe no componente para mover para direita/esquerda, cima/baixo */
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
