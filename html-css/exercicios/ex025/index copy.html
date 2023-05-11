@@ -10,24 +10,19 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        #table1{
+        table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse; /* collapse = colapsado (junto) ou seja vai tirar aquele espacinho entre os elementos */
         }
 
-        #A1{
-            background-color: rgb(245, 212, 172);
-        }
-        #B2{
-            background-color: aqua;
-        }
-        #C3{
-            background-color: blueviolet;
-        }
+       
 
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /* alinhamento horizontal dentro da caixa ( center, left, right )*/
+            vertical-align: top; /* alinhamento vertical - por padrão é middle (meio) mas pode mudar top, middle e bottom*/
         }
 
         table{
@@ -37,39 +32,27 @@
     </style>
 </head>
 <body>
-    <h1>Minha Primeira Tabela</h1>
-    <table id="table1">
+    <h1>ALINHASMENTOS DE TABELA</h1>
+    <table>
         <tr>
-            <td id="A1">A1</td>
+            <td>A1</td>
             <td>B1</td>
             <td>C1</td>                     
         </tr>
         <tr>
             <td>A2</td>
-            <td id="B2">B2</td>
+            <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td id="C3">C3</td>
+            <td>C3</td>
         </tr>
        
     </table>
     <br>
     
-    <table>
-        <tr>
-           <td>TATIANE</td>
-           <td>GABRIELA</td>
-           <td>MIGUEL</td>
-        </tr>
-        <tr>
-            <td>LUCIMAR</td>
-            <td>ROSENI</td>
-            <td>CATARINA</td>
-        </tr>
-    </table>
     
 </body>
 </html>
